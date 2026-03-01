@@ -1,5 +1,6 @@
 # LangChain e Python: criando ferramentas com a LLM 
-# Caderno de anotações: https://www.notion.so/Langchain-e-PY-2fe6fbefaa9180d19e15d9db40c4b18d?source=copy_link
+# Caderno de anotações: 
+https://www.notion.so/Langchain-e-PY-2fe6fbefaa9180d19e15d9db40c4b18d?source=copy_link
 
 ## ⚙️ Guia de Configuração
 
