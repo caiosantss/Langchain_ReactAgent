@@ -1,8 +1,6 @@
-<img width="989" alt="image" src="https://github.com/user-attachments/assets/c140d5f9-a165-44d0-80b9-592fdbf16e03" />
-
-
-# LangChain e Python: criando ferramentas com a LLM OpenAI
-# Caderno de anotações: https://www.notion.so/Langchain-e-PY-2fe6fbefaa9180d19e15d9db40c4b18d?source=copy_link
+# LangChain e Python: criando ferramentas com a LLM 
+# Caderno de anotações: 
+https://www.notion.so/Langchain-e-PY-2fe6fbefaa9180d19e15d9db40c4b18d?source=copy_link
 
 ## ⚙️ Guia de Configuração
 
