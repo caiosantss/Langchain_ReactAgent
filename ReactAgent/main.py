@@ -14,7 +14,7 @@ def main():
     config = RunnableConfig(configurable={"thread_id": threading.get_ident()})
     graph = build_graph()
 
-    user_input = "Olá, eu sou Caio"
+    user_input = "Olá, eu sou Caio, tudo bem?"
     human_message = HumanMessage(user_input)
     current_messages = [human_message]
     
