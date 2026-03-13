@@ -1,11 +1,12 @@
 from langchain_core.messages import ToolMessage
 from langgraph.graph.state import StateGraph, CompiledStateGraph
-from langgraph.constants import START, END
+from langgraph.constants import START
 from langgraph.checkpoint.memory import InMemorySaver
 from state import State
 from utils import load_llm
 from tools import TOOLS, TOOL_BY_NAME
 from typing import Literal
+from langchain_core.messages import AIMessage
 
 #node
 def call_llm(state: State) -> State:
@@ -26,8 +27,9 @@ def tool_node(state: State) -> State:
         return state
     
     #If have tool_calls, get the last one and execute the tool
-    call = llm_response.tool_calls[-1]
-    
+    if isinstance(llm_response, AIMessage):
+        call = llm_response.tool_calls[-1]
+
     #Get the atributes of the call
     id_, name, args = call["id"], call["name"], call["args"]
     
